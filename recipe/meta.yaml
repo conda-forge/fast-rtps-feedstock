@@ -1,5 +1,5 @@
 {% set name = "fast-rtps" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 {% set major_minor_version = version.split('.')[0] + '.' + version.split('.')[1] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://github.com/eProsima/Fast-RTPS/archive/v{{ version }}.tar.gz
-    sha256: d6003f32592b2ea3b1a544730ddcfe32d020b9961b0b502190af8e80aafe9d01
+    sha256: d557425232da27c84b6142b17cdbccd3076233b445762a5f232205ecf5fff6ab
 
 build:
   number: 0
